@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68CA7B2B1B4EF12A4E5381F2 /* Pods_Respiratio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F6DE26ED749D7E0CD4D58A /* Pods_Respiratio.framework */; };
+		79DADB74C9AA4A6C055F0455 /* Pods_RespiratioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF8ECE11336DE7EC5881D3B /* Pods_RespiratioTests.framework */; };
 		9CA7EE6E1CC86439009E35BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7EE6D1CC86439009E35BF /* AppDelegate.swift */; };
 		9CA7EE701CC86439009E35BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7EE6F1CC86439009E35BF /* ViewController.swift */; };
 		9CA7EE731CC86439009E35BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CA7EE711CC86439009E35BF /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		9CA7EE831CC86439009E35BF /* RespiratioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7EE821CC86439009E35BF /* RespiratioTests.swift */; };
 		9CA7EE8E1CC86439009E35BF /* RespiratioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7EE8D1CC86439009E35BF /* RespiratioUITests.swift */; };
 		9CA7EE9C1CC869EC009E35BF /* AudioManipulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA7EE9B1CC869EC009E35BF /* AudioManipulator.swift */; };
+		F07997F3430130B076B69CC4 /* Pods_RespiratioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D94FA47F6E518F80068DA3 /* Pods_RespiratioUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0529775F4B9C18EE8A6D21F4 /* Pods-RespiratioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespiratioTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RespiratioTests/Pods-RespiratioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		216C372FCB8EECCF7C032D2A /* Pods-RespiratioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespiratioTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RespiratioTests/Pods-RespiratioTests.release.xcconfig"; sourceTree = "<group>"; };
+		3595BE9828C45FBC16858AA5 /* Pods-RespiratioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespiratioUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RespiratioUITests/Pods-RespiratioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42682E6C14D22B10306A0226 /* Pods-Respiratio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Respiratio.release.xcconfig"; path = "Pods/Target Support Files/Pods-Respiratio/Pods-Respiratio.release.xcconfig"; sourceTree = "<group>"; };
+		6604261AD13E942994FC4D3B /* Pods-RespiratioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RespiratioUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RespiratioUITests/Pods-RespiratioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FF8ECE11336DE7EC5881D3B /* Pods_RespiratioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RespiratioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1D5D5F723FABDBE778DF4A /* Pods-Respiratio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Respiratio.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Respiratio/Pods-Respiratio.debug.xcconfig"; sourceTree = "<group>"; };
+		91F6DE26ED749D7E0CD4D58A /* Pods_Respiratio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Respiratio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA7EE6A1CC86438009E35BF /* Respiratio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Respiratio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA7EE6D1CC86439009E35BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CA7EE6F1CC86439009E35BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		9CA7EE8D1CC86439009E35BF /* RespiratioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RespiratioUITests.swift; sourceTree = "<group>"; };
 		9CA7EE8F1CC86439009E35BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CA7EE9B1CC869EC009E35BF /* AudioManipulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManipulator.swift; sourceTree = "<group>"; };
+		F7D94FA47F6E518F80068DA3 /* Pods_RespiratioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RespiratioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CA7B2B1B4EF12A4E5381F2 /* Pods_Respiratio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DADB74C9AA4A6C055F0455 /* Pods_RespiratioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07997F3430130B076B69CC4 /* Pods_RespiratioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		522A7CA6B966C954705F5ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B1D5D5F723FABDBE778DF4A /* Pods-Respiratio.debug.xcconfig */,
+				42682E6C14D22B10306A0226 /* Pods-Respiratio.release.xcconfig */,
+				0529775F4B9C18EE8A6D21F4 /* Pods-RespiratioTests.debug.xcconfig */,
+				216C372FCB8EECCF7C032D2A /* Pods-RespiratioTests.release.xcconfig */,
+				3595BE9828C45FBC16858AA5 /* Pods-RespiratioUITests.debug.xcconfig */,
+				6604261AD13E942994FC4D3B /* Pods-RespiratioUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9CA7EE611CC86438009E35BF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				9CA7EE811CC86439009E35BF /* RespiratioTests */,
 				9CA7EE8C1CC86439009E35BF /* RespiratioUITests */,
 				9CA7EE6B1CC86438009E35BF /* Products */,
+				522A7CA6B966C954705F5ED6 /* Pods */,
+				DAA52FAA148338DC985CB8DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = RespiratioUITests;
 			sourceTree = "<group>";
 		};
+		DAA52FAA148338DC985CB8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91F6DE26ED749D7E0CD4D58A /* Pods_Respiratio.framework */,
+				6FF8ECE11336DE7EC5881D3B /* Pods_RespiratioTests.framework */,
+				F7D94FA47F6E518F80068DA3 /* Pods_RespiratioUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA7EE921CC86439009E35BF /* Build configuration list for PBXNativeTarget "Respiratio" */;
 			buildPhases = (
+				B2FAD02BC653EFF23173114F /* 📦 Check Pods Manifest.lock */,
 				9CA7EE661CC86438009E35BF /* Sources */,
 				9CA7EE671CC86438009E35BF /* Frameworks */,
 				9CA7EE681CC86438009E35BF /* Resources */,
+				82A21B6B566632187482AB4A /* 📦 Embed Pods Frameworks */,
+				F6704CD34A3A41A63B73B048 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA7EE951CC86439009E35BF /* Build configuration list for PBXNativeTarget "RespiratioTests" */;
 			buildPhases = (
+				4D736D381B69037165741636 /* 📦 Check Pods Manifest.lock */,
 				9CA7EE7A1CC86439009E35BF /* Sources */,
 				9CA7EE7B1CC86439009E35BF /* Frameworks */,
 				9CA7EE7C1CC86439009E35BF /* Resources */,
+				5CA5FA1F85A6150650AA534C /* 📦 Embed Pods Frameworks */,
+				2F3F9AE7B105033D2B60DEE8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CA7EE981CC86439009E35BF /* Build configuration list for PBXNativeTarget "RespiratioUITests" */;
 			buildPhases = (
+				290FD0CDEDD4B0FDE9F4CAEA /* 📦 Check Pods Manifest.lock */,
 				9CA7EE851CC86439009E35BF /* Sources */,
 				9CA7EE861CC86439009E35BF /* Frameworks */,
 				9CA7EE871CC86439009E35BF /* Resources */,
+				F929219BB676D722F9026C11 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +304,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		290FD0CDEDD4B0FDE9F4CAEA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2F3F9AE7B105033D2B60DEE8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RespiratioTests/Pods-RespiratioTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D736D381B69037165741636 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CA5FA1F85A6150650AA534C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RespiratioTests/Pods-RespiratioTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82A21B6B566632187482AB4A /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Respiratio/Pods-Respiratio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2FAD02BC653EFF23173114F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6704CD34A3A41A63B73B048 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Respiratio/Pods-Respiratio-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F929219BB676D722F9026C11 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RespiratioUITests/Pods-RespiratioUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9CA7EE661CC86438009E35BF /* Sources */ = {
@@ -404,6 +575,7 @@
 		};
 		9CA7EE931CC86439009E35BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B1D5D5F723FABDBE778DF4A /* Pods-Respiratio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -418,6 +590,7 @@
 		};
 		9CA7EE941CC86439009E35BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42682E6C14D22B10306A0226 /* Pods-Respiratio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -432,6 +605,7 @@
 		};
 		9CA7EE961CC86439009E35BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0529775F4B9C18EE8A6D21F4 /* Pods-RespiratioTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RespiratioTests/Info.plist;
@@ -444,6 +618,7 @@
 		};
 		9CA7EE971CC86439009E35BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216C372FCB8EECCF7C032D2A /* Pods-RespiratioTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = RespiratioTests/Info.plist;
@@ -456,6 +631,7 @@
 		};
 		9CA7EE991CC86439009E35BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3595BE9828C45FBC16858AA5 /* Pods-RespiratioUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RespiratioUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -467,6 +643,7 @@
 		};
 		9CA7EE9A1CC86439009E35BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6604261AD13E942994FC4D3B /* Pods-RespiratioUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = RespiratioUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
